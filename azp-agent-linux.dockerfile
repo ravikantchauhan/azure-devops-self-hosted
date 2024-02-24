@@ -54,8 +54,6 @@ COPY . .
 # Install project dependencies using Composer
 RUN composer install --no-interaction --prefer-dist || echo "Composer install failed. Check if composer.json exists."
 
-# Run SonarQube analysis
-RUN sonar-scanner -Dsonar.projectKey=hero_cms || echo "SonarQube analysis failed. Ensure proper configuration."
 
 # Archive build artifacts
 RUN zip -r /app/build.zip . || echo "Zip command failed."
