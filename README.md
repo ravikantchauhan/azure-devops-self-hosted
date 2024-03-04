@@ -10,9 +10,9 @@ Welcome to my Azure DevOps Pipeline Self-Hosted Agent Docker Image repository! T
   - Composer
   - SonarQube Scanner
   - Other necessary dependencies like curl, git, jq, unzip, etc.
-- **Certificates**: Configures SSL certificates for secure connections.
+- **JDK17**: With OpenJDK 17 JDK installation.
 - **Archiving**: Archives build artifacts into a ZIP file.
-- **Entrypoint Script**: Sets up an entrypoint script for initialization.
+- **Entrypoint Script**: Sets up an entrypoint scriptWit for initialization.
 - **Azure DevOps Pipeline Integration**: Pre-configured for seamless integration with Azure DevOps Pipelines.
 
 ## Usage
