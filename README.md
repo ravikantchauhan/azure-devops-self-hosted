@@ -25,6 +25,8 @@ docker build -t azure-devops-agent .
 
 ## If you prefer to use the Docker image directly from Docker Hub, you can run the following command:
 
+```bash
+
 docker run -e AZP_URL=https://dev.azure.com/yourorganization/ \
            -e AZP_TOKEN="<Personal Access Token>" \
            -e AZP_POOL="<Agent Pool Name>" \
