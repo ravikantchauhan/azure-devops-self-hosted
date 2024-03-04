@@ -18,8 +18,10 @@ Welcome to my Azure DevOps Pipeline Self-Hosted Agent Docker Image repository! T
 ## Usage
 
 To build the Docker image, run:
+```bash
 
 docker build -t azure-devops-agent .
+```
 
 ## For Usage via Docker Hub
 
