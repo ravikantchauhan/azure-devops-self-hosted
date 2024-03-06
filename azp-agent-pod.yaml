@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: azp-agent-linux
+spec:
+  containers:
+  - name: azp-agent
+    image: ravikantchauhan/azure-self-hosted-agent:linux
+    env:
+    - name: AZP_URL
+      value: "https://dev.azure.com/yourorganization/"
+    - name: AZP_TOKEN
+      value: "<Personal Access Token>"
+    - name: AZP_POOL
+      value: "<Agent Pool Name>"
+    - name: AZP_AGENT_NAME
+      value: "Docker Agent - Linux"
