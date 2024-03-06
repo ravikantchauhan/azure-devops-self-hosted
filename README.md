@@ -36,7 +36,7 @@ docker run -e AZP_URL=https://dev.azure.com/yourorganization/ \
            --name "azp-agent-linux" \
            ravikantchauhan/azure-self-hosted-agent:linux
 ```
-## Replace <Personal Access Token> with your actual Personal Access Token, <Agent Pool Name> with the name of your Azure DevOps agent pool, and https://dev.azure.com/yourorganization/ with your Azure DevOps organization URL.
+ Replace <Personal Access Token> with your actual Personal Access Token, <Agent Pool Name> with the name of your Azure DevOps agent pool, and https://dev.azure.com/yourorganization/ with your Azure DevOps organization URL.
 
 ## Kubernetes Usage
-## To use this Docker image in a Kubernetes cluster, you can deploy a Pod using the azp-agent-pod.yaml YAML configuration:
+# To use this Docker image in a Kubernetes cluster, you can deploy a Pod using the azp-agent-pod.yaml configuration:
